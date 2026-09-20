@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =====================================================
+         HIER ÄNDERN: TITEL IM BROWSER-TAB
+         ===================================================== -->
+    <title>Rechtsgeschäfte & Willenserklärungen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme-pastell">
+
+    <main class="container">
+
+        <!-- =====================================================
+             HIER ÄNDERN: TITEL UND LERNTHEMA DES QUIZ
+             ===================================================== -->
+
+        <header class="quiz-header">
+            <p class="subject">BWL / Recht</p>
+            <h1>Rechtsgeschäfte & Willenserklärungen</h1>
+            <p class="topic">Verträge, Willenserklärungen und Verpflichtungsgeschäfte</p>
+        </header>
+
+        <!-- =====================================================
+             STARTSEITE / THEME-AUSWAHL
+             ===================================================== -->
+
+        <section id="startScreen" class="screen">
+
+            <div class="start-card">
+
+                <p class="eyebrow">Theme auswählen</p>
+
+                <h2>Wie möchtest du heute lernen?</h2>
+
+                <p class="start-description">
+                    Wähle ein Theme aus. Du kannst zwischen den Themes wechseln
+                    und dir direkt ansehen, wie das Quiz aussehen wird.
+                </p>
+
+                <div class="theme-preview">
+
+                    <div class="preview-question">
+                        Beispielfrage
+                    </div>
+
+                    <div class="preview-answer">
+                        A) Beispielantwort
+                    </div>
+
+                    <div class="preview-answer selected-preview">
+                        B) Ausgewählte Antwort
+                    </div>
+
+                    <div class="preview-explanation">
+                        Hier erscheint später die vertiefende Erklärung.
+                    </div>
+
+                </div>
+
+                <div class="theme-controls">
+
+                    <button id="previousThemeBtn"
+                            class="theme-arrow"
+                            type="button"
+                            aria-label="Vorheriges Theme">
+                        ‹
+                    </button>
+
+                    <div class="theme-name-wrapper">
+                        <span class="theme-label">Aktuelles Theme</span>
+                        <strong id="themeName">Pastell</strong>
+                    </div>
+
+                    <button id="nextThemeBtn"
+                            class="theme-arrow"
+                            type="button"
+                            aria-label="Nächstes Theme">
+                        ›
+                    </button>
+
+                </div>
+
+                <div class="theme-dots">
+                    <span class="theme-dot active"></span>
+                    <span class="theme-dot"></span>
+                    <span class="theme-dot"></span>
+                </div>
+
+                <button id="startBtn"
+                        class="main-button"
+                        type="button">
+                    Quiz starten
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             QUIZ
+             ===================================================== -->
+
+        <section id="quizScreen"
+                 class="screen hidden">
+
+            <div class="status-card">
+
+                <div class="status-grid">
+
+                    <div class="status-item">
+                        <span class="status-label">Frage</span>
+                        <strong id="questionCounter">1 / 10</strong>
+                    </div>
+
+                    <div class="status-item">
+                        <span class="status-label">Bearbeitet</span>
+                        <strong id="answeredCounter">0</strong>
+                    </div>
+
+                    <div class="status-item">
+                        <span class="status-label">Richtig</span>
+                        <strong id="correctCounter">0</strong>
+                    </div>
+
+                    <div class="status-item">
+                        <span class="status-label">Falsch</span>
+                        <strong id="wrongCounter">0</strong>
+                    </div>
+
+                </div>
+
+                <div class="progress-row">
+                    <span>Fortschritt</span>
+                    <span id="progressPercent">0 %</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+
+            </div>
+
+
+            <article class="question-card">
+
+                <p class="question-number"
+                   id="questionNumber">
+                    Frage 1
+                </p>
+
+                <h2 id="question">
+                    Frage wird geladen ...
+                </h2>
+
+                <div id="answers"
+                     class="answers">
+                </div>
+
+                <div id="feedback"
+                     class="feedback hidden">
+                </div>
+
+                <button id="actionBtn"
+                        class="main-button"
+                        type="button">
+                    Auswerten
+                </button>
+
+                <p id="selectionHint"
+                   class="selection-hint">
+                    Wähle eine Antwort aus und klicke anschließend auf „Auswerten“.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- =====================================================
+             ENDAUSWERTUNG
+             ===================================================== -->
+
+        <section id="resultScreen"
+                 class="screen hidden">
+
+            <div class="result-card">
+
+                <p class="eyebrow">
+                    Quiz abgeschlossen
+                </p>
+
+                <h2>Dein Ergebnis</h2>
+
+                <div class="result-percentage"
+                     id="resultPercentage">
+                    0 %
+                </div>
+
+                <p class="result-score"
+                   id="resultScore">
+                </p>
+
+                <div class="result-details">
+
+                    <div>
+                        <span>Richtig</span>
+                        <strong id="resultCorrect">0</strong>
+                    </div>
+
+                    <div>
+                        <span>Falsch</span>
+                        <strong id="resultWrong">0</strong>
+                    </div>
+
+                    <div>
+                        <span>Note</span>
+                        <strong id="resultGrade">–</strong>
+                    </div>
+
+                </div>
+
+                <div id="gradeMessage"
+                     class="grade-message">
+                </div>
+
+                <button id="restartBtn"
+                        class="main-button"
+                        type="button">
+                    Fragen neu mischen & nochmal starten
+                </button>
+
+                <button id="themeAgainBtn"
+                        class="secondary-button"
+                        type="button">
+                    Anderes Theme wählen
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+[
+  {
+    "question": "Ein 15-Jähriger schließt ohne vorherige Zustimmung seiner Eltern einen kostenpflichtigen Vertrag, der für ihn nicht lediglich rechtlich vorteilhaft ist. Die Eltern können nachträglich zustimmen. Wie heißt diese nachträgliche Zustimmung?",
+    "options": {
+      "A": "Genehmigung.",
+      "B": "Einwilligung.",
+      "C": "Beglaubigung.",
+      "D": "Beurkundung."
+    },
+    "correct": "A",
+    "explanation": "Die vorherige Zustimmung heißt Einwilligung, die nachträgliche Zustimmung Genehmigung. Bei einem ohne erforderliche Einwilligung geschlossenen Vertrag eines beschränkt Geschäftsfähigen hängt die Wirksamkeit nach § 108 BGB grundsätzlich von der Genehmigung des gesetzlichen Vertreters ab. Merksatz: Einwilligung vorher – Genehmigung nachher."
+  },
+  {
+    "question": "Ein sechsjähriges Kind erhält von seiner Großmutter 20 Euro und kauft damit allein ein Spielzeug. Welche Aussage trifft auf die eigene Willenserklärung des Kindes zu?",
+    "options": {
+      "A": "Sie ist wirksam, weil das Geld geschenkt wurde.",
+      "B": "Sie ist grundsätzlich nichtig, weil das Kind geschäftsunfähig ist.",
+      "C": "Sie ist lediglich schwebend unwirksam, weil das Kind beschränkt geschäftsfähig ist.",
+      "D": "Sie ist aufgrund des Taschengeldparagraphen automatisch wirksam."
+    },
+    "correct": "B",
+    "explanation": "Ein Kind, das das siebente Lebensjahr noch nicht vollendet hat, ist nach § 104 Nr. 1 BGB geschäftsunfähig. Seine Willenserklärung ist nach § 105 Abs. 1 BGB grundsätzlich nichtig. § 110 BGB hilft hier nicht, weil er einen beschränkt geschäftsfähigen Minderjährigen voraussetzt."
+  },
+  {
+    "question": "Eine 14-Jährige kauft mit 25 Euro, die ihr von den Eltern ausdrücklich zur freien Verfügung überlassen wurden, ein Buch und bezahlt den vollständigen Kaufpreis sofort. Welche Vorschrift kann den Vertrag ohne zusätzliche Zustimmung der Eltern wirksam machen?",
+    "options": {
+      "A": "§ 104 BGB über Geschäftsunfähigkeit.",
+      "B": "§ 123 BGB über Täuschung und Drohung.",
+      "C": "§ 110 BGB über die Bewirkung der Leistung mit überlassenen Mitteln.",
+      "D": "§ 125 BGB über Formmängel."
+    },
+    "correct": "C",
+    "explanation": "Hier kann § 110 BGB einschlägig sein. Hat der Minderjährige seine vertragsmäßige Leistung vollständig mit Mitteln bewirkt, die ihm zu diesem Zweck oder zur freien Verfügung überlassen wurden, kann der Vertrag auch ohne gesonderte Zustimmung wirksam sein. Eine feste gesetzliche Taschengeld-Höchstgrenze gibt es dabei nicht."
+  },
+  {
+    "question": "Eine volljährige Person steht unter rechtlicher Betreuung. Sie möchte beim Bäcker selbst ein Brötchen kaufen. Welche Aussage ist grundsätzlich richtig?",
+    "options": {
+      "A": "Eine betreute Person verliert automatisch ihre Rechtsfähigkeit.",
+      "B": "Jede Betreuung führt automatisch zur Geschäftsunfähigkeit.",
+      "C": "Ein Betreuter darf grundsätzlich überhaupt keine Verträge mehr schließen.",
+      "D": "Die Betreuung allein führt nicht automatisch zur Geschäftsunfähigkeit."
+    },
+    "correct": "D",
+    "explanation": "Die Bestellung eines Betreuers bedeutet nicht automatisch, dass die betreute Person geschäftsunfähig ist. Geschäftsunfähigkeit richtet sich nach § 104 BGB. Daneben kann für bestimmte Bereiche ein gerichtlicher Einwilligungsvorbehalt bestehen. Diese Rechtsinstitute müssen voneinander unterschieden werden."
+  },
+  {
+    "question": "Ein Händler soll 500 Kilogramm handelsüblichen Weizen einer bestimmten Güte liefern. Welche Einordnung der Ware liegt besonders nahe?",
+    "options": {
+      "A": "Eine nicht vertretbare Sache, weil jedes Weizenkorn anders aussieht.",
+      "B": "Eine vertretbare Sache, weil die Ware im Verkehr nach Gewicht bestimmt wird.",
+      "C": "Eine unbewegliche Sache, weil Weizen auf Feldern wächst.",
+      "D": "Eine juristische Person, weil die Ware Vertragsgegenstand ist."
+    },
+    "correct": "B",
+    "explanation": "§ 91 BGB definiert vertretbare Sachen als bewegliche Sachen, die im Verkehr nach Zahl, Maß oder Gewicht bestimmt zu werden pflegen. Eine bestimmte Menge handelsüblichen Weizens ist ein klassisches Beispiel. Entscheidend ist nicht, ob einzelne Exemplare physisch völlig identisch sind."
+  },
+  {
+    "question": "Jemand überlässt einem Nachbarn zehn Kilogramm handelsüblichen Reis mit der Vereinbarung, dass dieser später zehn Kilogramm Reis gleicher Art und Güte zurückgibt. Welcher Vertragstyp passt besonders gut?",
+    "options": {
+      "A": "Sachdarlehensvertrag.",
+      "B": "Werkvertrag.",
+      "C": "Dienstvertrag.",
+      "D": "Grundstückskaufvertrag."
+    },
+    "correct": "A",
+    "explanation": "Beim Sachdarlehen werden vertretbare Sachen überlassen und später Sachen gleicher Art, Güte und Menge zurückgewährt. Es müssen also gerade nicht dieselben einzelnen Reiskörner zurückgegeben werden. Das unterscheidet das Sachdarlehen beispielsweise von einer bloßen Gebrauchsüberlassung, bei der dieselbe Sache zurückzugeben wäre."
+  },
+  {
+    "question": "Eine Person unterschreibt einen Vertrag nur deshalb, weil die andere Vertragspartei sie widerrechtlich bedroht hat. Welches rechtliche Instrument kommt insbesondere in Betracht?",
+    "options": {
+      "A": "Der Taschengeldparagraph.",
+      "B": "Die automatische Nichtigkeit wegen Minderjährigkeit.",
+      "C": "Die Anfechtung wegen widerrechtlicher Drohung.",
+      "D": "Die öffentliche Beglaubigung."
+    },
+    "correct": "C",
+    "explanation": "Nach § 123 BGB kann eine Willenserklärung angefochten werden, wenn jemand widerrechtlich durch Drohung zu ihrer Abgabe bestimmt wurde. Das ist ein typischer Fall der Anfechtbarkeit. Eine erfolgreiche Anfechtung führt nach § 142 Abs. 1 BGB grundsätzlich dazu, dass das Rechtsgeschäft als von Anfang an nichtig anzusehen ist."
+  },
+  {
+    "question": "Ein Verkäufer täuscht einen Käufer bewusst über eine wesentliche Eigenschaft einer Ware, um ihn zum Vertragsschluss zu bewegen. Welche rechtliche Möglichkeit kann dem Käufer grundsätzlich zustehen?",
+    "options": {
+      "A": "Der Vertrag wird automatisch zu einem Werkvertrag.",
+      "B": "Der Käufer wird beschränkt geschäftsfähig.",
+      "C": "Der Verkäufer erhält automatisch ein Widerrufsrecht.",
+      "D": "Der Käufer kann bei Vorliegen der Voraussetzungen wegen arglistiger Täuschung anfechten."
+    },
+    "correct": "D",
+    "explanation": "§ 123 BGB erfasst neben der widerrechtlichen Drohung auch die arglistige Täuschung. Wird jemand dadurch zur Abgabe seiner Willenserklärung bestimmt, kann er die Erklärung unter den gesetzlichen Voraussetzungen anfechten. Anfechtbarkeit ist von einer ohne Anfechtung bestehenden Nichtigkeit zu unterscheiden."
+  },
+  {
+    "question": "Für ein bestimmtes Rechtsgeschäft schreibt das Gesetz Schriftform vor. Die Beteiligten halten diese gesetzlich vorgeschriebene Form nicht ein und es gibt keine besondere gesetzliche Heilungsregel. Welche Folge sieht § 125 BGB grundsätzlich vor?",
+    "options": {
+      "A": "Das Rechtsgeschäft ist wegen des Formmangels grundsätzlich nichtig.",
+      "B": "Das Rechtsgeschäft wird automatisch zu einem mündlichen Werkvertrag.",
+      "C": "Der Formmangel ist rechtlich immer bedeutungslos.",
+      "D": "Das Rechtsgeschäft ist deshalb lediglich anfechtbar."
+    },
+    "correct": "A",
+    "explanation": "Nach § 125 Satz 1 BGB ist ein Rechtsgeschäft, das der gesetzlich vorgeschriebenen Form ermangelt, grundsätzlich nichtig. Davon zu unterscheiden ist die Anfechtbarkeit wegen Irrtums, arglistiger Täuschung oder widerrechtlicher Drohung. Bei einzelnen Rechtsgeschäften kann das Gesetz besondere Heilungsmöglichkeiten vorsehen."
+  },
+  {
+    "question": "Welche Situation verlangt eher eine notarielle Beurkundung als lediglich eine Beglaubigung einer Unterschrift?",
+    "options": {
+      "A": "Es soll lediglich bestätigt werden, von wem eine bestimmte Unterschrift stammt.",
+      "B": "Das Gesetz verlangt, dass die Erklärungen der Beteiligten in einem notariellen Beurkundungsverfahren aufgenommen werden.",
+      "C": "Eine Person möchte nur eine einfache Kopie für ihre Unterlagen anfertigen.",
+      "D": "Ein Vertrag soll lediglich per E-Mail verschickt werden."
+    },
+    "correct": "B",
+    "explanation": "Bei der Beglaubigung einer Unterschrift steht die Echtheit beziehungsweise Herkunft der Unterschrift im Mittelpunkt. Bei der notariellen Beurkundung ist dagegen die Erklärung beziehungsweise das Rechtsgeschäft selbst Gegenstand des notariellen Verfahrens. Der Notar hat dabei weitergehende Prüfungs- und Belehrungspflichten."
+  },
+  {
+    "question": "In einer Projektbeschreibung steht: „Die Anwendung muss es Benutzern ermöglichen, sich mit E-Mail-Adresse und Passwort anzumelden.“ Wo gehört diese Anforderung typischerweise zuerst hin?",
+    "options": {
+      "A": "Ins Lastenheft als Anforderung daran, was das System leisten soll.",
+      "B": "Ausschließlich in die Rechnung des Auftragnehmers.",
+      "C": "In einen Sachdarlehensvertrag.",
+      "D": "In eine notarielle Beglaubigung."
+    },
+    "correct": "A",
+    "explanation": "Das Lastenheft beschreibt aus Sicht des Auftraggebers, was das zu entwickelnde System leisten soll. Die Forderung nach einer Login-Funktion ist zunächst eine fachliche Anforderung. Das Pflichtenheft beschreibt anschließend konkreter, wie der Auftragnehmer diese Anforderung technisch umsetzen will."
+  },
+  {
+    "question": "Im Pflichtenheft steht: „Die Anmeldung wird über den vorhandenen Authentifizierungsdienst umgesetzt; Passwörter werden nicht im Klartext gespeichert.“ Warum passt diese Angabe eher in das Pflichtenheft?",
+    "options": {
+      "A": "Weil das Pflichtenheft nur Wünsche des Auftraggebers ohne Umsetzung enthält.",
+      "B": "Weil technische Dokumente immer automatisch Werkverträge sind.",
+      "C": "Weil hier konkret beschrieben wird, wie eine Anforderung technisch umgesetzt werden soll.",
+      "D": "Weil ein Pflichtenheft ausschließlich nach Abnahme erstellt wird."
+    },
+    "correct": "C",
+    "explanation": "Das Pflichtenheft konkretisiert die Umsetzung der Anforderungen. Während das Lastenheft insbesondere beschreibt, was und wofür gefordert wird, beschreibt das Pflichtenheft typischerweise, wie und womit der Auftragnehmer die Anforderungen erfüllen will."
+  },
+  {
+    "question": "Ein Unternehmen beauftragt einen Entwickler mit der Erstellung einer konkret beschriebenen App. Vereinbart ist, dass die App die festgelegten Funktionen erfüllen muss und anschließend abgenommen wird. Welcher Vertragstyp liegt nach diesen Merkmalen besonders nahe?",
+    "options": {
+      "A": "Sachdarlehensvertrag.",
+      "B": "Dienstvertrag, weil Programmierer grundsätzlich nur Dienstverträge schließen können.",
+      "C": "Kaufvertrag über Arbeitsstunden.",
+      "D": "Werkvertrag."
+    },
+    "correct": "D",
+    "explanation": "Die Verpflichtung zur Herstellung eines konkret bestimmten Erfolgs spricht für einen Werkvertrag. Hier wird nicht lediglich Entwicklungsarbeit geschuldet, sondern eine App mit vereinbarten Funktionen. Auch die vorgesehene Abnahme ist ein typisches Merkmal des Werkvertragsrechts."
+  },
+  {
+    "question": "Eine IT-Fachkraft wird für drei Monate damit beauftragt, ein Team bei laufenden Entwicklungsaufgaben zu unterstützen. Vergütet wird ihre Arbeitszeit; ein bestimmtes fertiges Arbeitsergebnis wird nicht geschuldet. Welche Einordnung liegt näher?",
+    "options": {
+      "A": "Dienstvertrag.",
+      "B": "Werkvertrag, weil jede Tätigkeit in der IT automatisch ein Werk darstellt.",
+      "C": "Sachdarlehensvertrag.",
+      "D": "Grundstückskaufvertrag."
+    },
+    "correct": "A",
+    "explanation": "Wenn die vereinbarte Tätigkeit geschuldet wird, aber kein bestimmter Erfolg, entspricht dies grundsätzlich dem Dienstvertrag. Beim Werkvertrag ist dagegen gerade die Herstellung eines vereinbarten Erfolgs geschuldet. Deshalb muss bei IT-Verträgen auf den konkreten Leistungsinhalt und nicht lediglich auf die Berufsbezeichnung geschaut werden."
+  },
+  {
+    "question": "Was schuldet der Dienstverpflichtete bei einem Dienstvertrag grundsätzlich?",
+    "options": {
+      "A": "Die vereinbarten Dienste beziehungsweise Tätigkeit, nicht automatisch einen bestimmten Arbeitserfolg.",
+      "B": "Immer die Herstellung eines abnahmefähigen Werks.",
+      "C": "Immer die Übereignung einer Sache.",
+      "D": "Ausschließlich einen bestimmten wirtschaftlichen Gewinn."
+    },
+    "correct": "A",
+    "explanation": "Beim Dienstvertrag werden die versprochenen Dienste geschuldet. Ein bestimmter Erfolg ist grundsätzlich nicht Gegenstand der Leistungspflicht. Deshalb unterscheidet sich der Dienstvertrag wesentlich vom Werkvertrag."
+  },
+  {
+    "question": "Was schuldet der Unternehmer bei einem Werkvertrag grundsätzlich?",
+    "options": {
+      "A": "Nur seine Anwesenheit für eine bestimmte Zahl von Stunden.",
+      "B": "Die Herstellung des versprochenen Werks beziehungsweise den vereinbarten Erfolg.",
+      "C": "Ausschließlich eine Beratung ohne bestimmtes Ergebnis.",
+      "D": "Nur den Versuch, ein Ergebnis zu erzielen."
+    },
+    "correct": "B",
+    "explanation": "Beim Werkvertrag schuldet der Unternehmer nach § 631 BGB die Herstellung des versprochenen Werks. Entscheidend ist damit ein bestimmter Erfolg und nicht lediglich die Tätigkeit."
+  }
+]
